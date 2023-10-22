@@ -217,9 +217,6 @@ resource "azurerm_storage_container" "data2" {
     ]
 }
 
-# Here we are uploading our IIS Configuration script as a blob
-# to the Azure storage account
-
 resource "azurerm_storage_blob" "IIS_config" {
   name                   = "IIS_Config.ps1"
   storage_account_name   = azurerm_storage_account.store.name
