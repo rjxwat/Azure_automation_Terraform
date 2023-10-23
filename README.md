@@ -7,7 +7,8 @@ Visualising load balancer
   I have uploaded the output results in img file naming it as LoadBalancerop1 and LoadBalancerop2;
   where u can see the ip address is same for both but webpage is diiferent
 
-I have also included a public ip address for each webpage so we can access them independently too
+As a additional feature I have also included a public ip address for each webpage so we can access them independently too.
+
 
 
 Initial steps-
@@ -35,7 +36,7 @@ cycling of resource creation
 priority of resource creation need of destroying resources- as some slight changes didnt reflect
 a wierd vm extension creation issue
 provision config issues
-naming of user in vm (naming conventions)
+naming of user in vm (naming conventions-how can i miss this just like other languages even HCL have keywords reserved ..)
 installing wrong web server on wrong operating system ngix and apache
 subnet errors
 weird storage issue in blob and storage account 
