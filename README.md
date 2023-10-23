@@ -1,6 +1,20 @@
 # IAAS_tf_az
 ==============================wait i still need to organise readme properly==========================
 
+src-->contains code for all operations
+img-->contains output image of those operations
+
+src====================
+  config-->file containing basic azure to terraform config
+  RGrp-->config file to create resource group wec1
+  Aset1-->config file for creating availability set
+  VNet1-->config file to create Virtual network and subnets for each virtual machine
+  VM-->config file to create virtual machine and its network interface
+  Wpage-->config file to create webserver and webpage for each virtual machine , i have used              windows os on both so installed IIS as web server , if using linux use ngix as it is            more resource efficient than apache..., this file also contains network security(not            necessary).
+  final-->config file to create all the above resources along with load balancing.
+  
+  
+  
 Visualising load balancer 
   1.open the same url in multiple tabs
   2.refresh the page multiple times
@@ -24,6 +38,7 @@ terraform apply main.tfplan
 (replace main with respective file names)
 
 
+What I have done -
 
 
 
