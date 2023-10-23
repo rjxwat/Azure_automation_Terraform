@@ -1,5 +1,5 @@
 # IAAS_tf_az
-======================wait i still need to organise readme properly==========================
+============wait i still need to organise readme properly===============
 
 src-->contains code for all operations
 img-->contains output image of those operations
