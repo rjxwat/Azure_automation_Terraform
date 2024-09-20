@@ -1,11 +1,11 @@
 # IAAS_tf_az
 
 
-src-->contains code for all operations
-img-->contains output image of those operations
+### src-->contains code for all operations
+ ### img-->contains output image of those operations
 
-src====================
-What I have done -
+## src
+### What I have done -
   config-->file containing basic azure to terraform config
   RGrp-->config file to create resource group wec1
   Aset1-->config file for creating availability set
@@ -16,23 +16,23 @@ What I have done -
   
   
   
-Visualising load balancer 
+### Visualising load balancer 
   1.open the same url in multiple tabs
   2.refresh the page multiple times
   I have uploaded the output results in img file naming it as LoadBalancerop1 and LoadBalancerop2;
   where u can see the ip address is same for both but webpage is diiferent
 
-As a additional feature I have also included a public ip address for each webpage so we can access them independently too.
+### As a additional feature I have also included a public ip address for each webpage so we can access them independently too.
 
 
 
-Initial steps-
+### Initial steps-
 Create a Azure student account
 Download Azure Cli
 Install terraform and add it path variables
 Do a principal authetication using az login
 
-Basic Commands-
+### Basic Commands-
 terraform init
 terraform plan -out main.tfplan
 terraform apply main.tfplan
@@ -43,7 +43,7 @@ terraform apply main.tfplan
 
 
 
-________the problem listed below are not inorder of completion of task i just metioned them randomly...
+## ________the problem listed below are not inorder of completion of task i just metioned them randomly...
 problems and errors encountered throughout the journey-->
 1..Priority order of resource creation need to be correct
 2.SKU in public ip address of load balancer also should be Standared
